@@ -13,7 +13,7 @@ var app = {
   },
 
 	generateChart:() => {
-		$.ajax({ url: '/public/data/data.json' }).done((data) => {
+		$.ajax({ url: 'public/data/data.json' }).done((data) => {
 			let config = {
 				state: [],
 				data_education: ['Educational Attainment'],

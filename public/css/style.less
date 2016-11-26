@@ -143,6 +143,22 @@
       margin: 0 0 30px 0;
     }
 
+    #chart-legend {
+      width: 97%;
+      margin: 0 0 50px 3%;
+      font-size: 1.5em;
+
+      span {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        height: 50px;
+        line-height: 50px;
+        color: @textColorDarkBlue;
+      }
+    }
+
     #chart {
       height: 600px;
       clear: both;
@@ -159,14 +175,6 @@
 
       .c3-axis-x .tick line {
         display: none;
-      }
-
-      .c3-legend-item {
-        text {
-          font-size: 1.1em;
-          font-family: @fontHeadings;
-          text-transform: uppercase;
-        }
       }
 
       .c3-tooltip {
@@ -187,22 +195,6 @@
             border-left: 1px dashed @textColorLightBlue;
           }
         }
-      }
-    }
-
-    #chart-legend {
-      width: 97%;
-      margin: 0 0 50px 3%;
-      font-size: 1.5em;
-
-      span {
-        width: 25%;
-        display: inline-block;
-        text-align: center;
-        cursor: pointer;
-        height: 50px;
-        line-height: 50px;
-        color: @textColorDarkBlue;
       }
     }
   }
@@ -242,7 +234,53 @@
 /* =media queries
 --------------------------------------------- */
   @media @mobile {
-    
+    #header .title {
+      font-size: 1.8em;
+    }
+    #content {
+      padding: 30px 3% 50px;
+
+      #chart-type-selector,
+      #chart-sort-selector {
+        width: 50%;
+        margin: 0 0 20px 0;
+      }
+
+      .chart-selector ul li {
+        float: none;
+
+        a {
+          text-align: center;
+          font-size: 1.1em;
+          margin: 0 10px 10px 0;
+        }
+      }
+
+      #chart-legend {
+        clear: both;
+        width: 100%;
+        margin: 0 0 50px;
+        font-size: 1.1em;
+
+        span {
+          display: block;
+          height: 37px;
+          line-height: 1;
+          float: left;
+          padding-top: 10px;
+        }
+      }
+
+      #chart {
+        margin-left: -5%;
+        margin-right: -3%;
+        width: 106%;
+
+        text {
+          font-size: .8em;
+        }
+      }
+    }
   }
 
 

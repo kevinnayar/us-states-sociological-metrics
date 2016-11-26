@@ -1,0 +1,261 @@
+@import url("reset.css");
+
+
+/* =variables
+--------------------------------------------- */
+  @colorDarkBlue: #212E3F;
+  @colorMidBlue: #324157;
+  @colorLightBlue: #465771;
+
+  @colorGradient: linear-gradient(141deg, @colorDarkBlue 0, @colorLightBlue 95%);
+
+  @textColorLightBlue: #94A7C1;
+  @textColorMidBlue: #697988;
+  @textColorDarkBlue: #101D2E;
+  @textColorGrey: #EDEDED;
+
+  @fontBody: 'Open Sans', Helvetica, Arial, sans-serif; 
+  @fontHeadings: 'Montserrat', Helvetica, Arial, sans-serif; 
+
+  @mobile: ~'only screen and (max-width: 600px)';
+
+
+/* =global elements and typography
+--------------------------------------------- */
+  html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    min-height: 100%;
+    background: @colorGradient;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: @fontBody;
+    font-size: 62.5%; 
+    color: @textColorLightBlue;
+    -webkit-font-smoothing: antialiased;
+  }
+  p {
+    font-size: 1.3em;
+  }
+  a {
+    text-decoration: none;
+  }
+
+
+/* =header
+--------------------------------------------- */
+  #header {
+    text-align: center;
+    background-color: @colorDarkBlue;
+    color: @textColorLightBlue;
+    width: 94%;
+    padding: 10px 3%;
+    height: 50px;
+    animation-name: animateheader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: .7s;
+
+    .title {
+      line-height: 50px;
+      color: @textColorLightBlue;
+      font-size: 2.4em;
+      font-family: @fontHeadings;
+      text-transform: uppercase;
+    }
+  }
+  @keyframes animateheader {
+    0% {
+      transform: translateY(-70px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+/* =content
+--------------------------------------------- */
+  #content {
+    margin: 0 auto;
+    padding: 70px 3%;
+    animation-name: animatecontent;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: .7s;
+
+    .chart-selector {
+      width: 48%;
+      padding: 0 2%;
+      overflow: hidden;
+      box-sizing: border-box;
+      float: left;
+
+      .chart-label {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        font-family: @fontHeadings;
+        text-transform: uppercase;
+      }
+
+      ul li {
+        display: inline;
+        float: left;
+
+        a {
+          display: block;
+          background-color: @colorDarkBlue;
+          color: @textColorMidBlue;
+          height: 30px;
+          line-height: 30px;
+          padding: 0 1em;
+          margin: 0 1em 1em 0;
+          font-size: 1.2em;
+          border-radius: 17px;
+          border: 2px solid @colorDarkBlue;
+          -ms-transition:.5s;
+          -webkit-transition:.5s;
+          -moz-transition:.5s;
+          transition:.5s;
+
+          &:hover {
+            border-color: @colorLightBlue;
+            color: @textColorLightBlue;
+          }
+
+          &.active {
+            background-color: @textColorLightBlue;
+            border-color: @textColorLightBlue;
+            color: @colorDarkBlue;
+          }
+        }
+      }
+    }
+
+    #chart-type-selector {
+      margin: 0 0 30px 4%;
+    }
+
+    #chart-sort-selector {
+      margin: 0 0 30px 0;
+    }
+
+    #chart {
+      height: 600px;
+      clear: both;
+
+      line, 
+      path{
+        stroke: @textColorMidBlue;
+      }
+
+      text {
+        fill: @textColorLightBlue;
+        font-family: @fontBody;
+      }
+
+      .c3-axis-x .tick line {
+        display: none;
+      }
+
+      .c3-legend-item {
+        text {
+          font-size: 1.1em;
+          font-family: @fontHeadings;
+          text-transform: uppercase;
+        }
+      }
+
+      .c3-tooltip {
+        th {
+          background-color: @colorDarkBlue;
+          color: @textColorLightBlue;
+          font-size: 1.5em;
+          padding: .8em;
+        }
+        tr {
+          border: 1px solid @textColorLightBlue;
+
+          td {
+            font-size: 1.3em;
+            padding: .8em;
+            background-color: @textColorGrey;
+            color: @textColorMidBlue;
+            border-left: 1px dashed @textColorLightBlue;
+          }
+        }
+      }
+    }
+
+    #chart-legend {
+      width: 97%;
+      margin: 0 0 50px 3%;
+      font-size: 1.5em;
+
+      span {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        height: 50px;
+        line-height: 50px;
+        color: @textColorDarkBlue;
+      }
+    }
+  }
+  @keyframes animatecontent {
+    0% {
+      transform: translateY(70px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+/* =footer
+--------------------------------------------- */
+  #footer {
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    bottom: 0;
+    background-color: @colorDarkBlue;
+    color: @textColorLightBlue;
+    width: 100%;
+    height: 50px;
+
+    p {
+      line-height: 50px;
+
+      a {
+        font-size: 1em;
+        color: @textColorGrey;
+      }
+    }
+  }
+
+
+/* =media queries
+--------------------------------------------- */
+  @media @mobile {
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

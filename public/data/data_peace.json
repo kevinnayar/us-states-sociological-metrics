@@ -1,0 +1,204 @@
+{
+	"data": [
+		{
+			"state": "Maine",
+			"score_peace_index": 1.308
+		},
+		{
+			"state": "Vermont",
+			"score_peace_index": 1.547
+		},
+		{
+			"state": "New Hampshire",
+			"score_peace_index": 1.551
+		},
+		{
+			"state": "Minnesota",
+			"score_peace_index": 1.614
+		},
+		{
+			"state": "Utah",
+			"score_peace_index": 1.723
+		},
+		{
+			"state": "North Dakota",
+			"score_peace_index": 1.744
+		},
+		{
+			"state": "Washington",
+			"score_peace_index": 1.782
+		},
+		{
+			"state": "Hawaii",
+			"score_peace_index": 1.784
+		},
+		{
+			"state": "Rhode Island",
+			"score_peace_index": 1.788
+		},
+		{
+			"state": "Iowa",
+			"score_peace_index": 1.865
+		},
+		{
+			"state": "Nebraska",
+			"score_peace_index": 1.927
+		},
+		{
+			"state": "Massachusetts",
+			"score_peace_index": 2.004
+		},
+		{
+			"state": "Oregon",
+			"score_peace_index": 2.072
+		},
+		{
+			"state": "Connecticut",
+			"score_peace_index": 2.194
+		},
+		{
+			"state": "West Virginia",
+			"score_peace_index": 2.197
+		},
+		{
+			"state": "Idaho",
+			"score_peace_index": 2.226
+		},
+		{
+			"state": "Wyoming",
+			"score_peace_index": 2.264
+		},
+		{
+			"state": "Montana",
+			"score_peace_index": 2.273
+		},
+		{
+			"state": "Wisconsin",
+			"score_peace_index": 2.302
+		},
+		{
+			"state": "South Dakota",
+			"score_peace_index": 2.318
+		},
+		{
+			"state": "Kentucky",
+			"score_peace_index": 2.318
+		},
+		{
+			"state": "Ohio",
+			"score_peace_index": 2.328
+		},
+		{
+			"state": "Indiana",
+			"score_peace_index": 2.345
+		},
+		{
+			"state": "Pennsylvania",
+			"score_peace_index": 2.375
+		},
+		{
+			"state": "Virginia",
+			"score_peace_index": 2.477
+		},
+		{
+			"state": "Colorado",
+			"score_peace_index": 2.526
+		},
+		{
+			"state": "Kansas",
+			"score_peace_index": 2.573
+		},
+		{
+			"state": "New Jersey",
+			"score_peace_index": 2.631
+		},
+		{
+			"state": "Michigan",
+			"score_peace_index": 2.694
+		},
+		{
+			"state": "North Carolina",
+			"score_peace_index": 2.714
+		},
+		{
+			"state": "New York",
+			"score_peace_index": 2.722
+		},
+		{
+			"state": "California",
+			"score_peace_index": 2.738
+		},
+		{
+			"state": "Alaska",
+			"score_peace_index": 2.751
+		},
+		{
+			"state": "New Mexico",
+			"score_peace_index": 2.853
+		},
+		{
+			"state": "Illinois",
+			"score_peace_index": 2.892
+		},
+		{
+			"state": "Georgia",
+			"score_peace_index": 3.04
+		},
+		{
+			"state": "Oklahoma",
+			"score_peace_index": 3.111
+		},
+		{
+			"state": "Maryland",
+			"score_peace_index": 3.145
+		},
+		{
+			"state": "Delaware",
+			"score_peace_index": 3.148
+		},
+		{
+			"state": "Alabama",
+			"score_peace_index": 3.17
+		},
+		{
+			"state": "Mississippi",
+			"score_peace_index": 3.17
+		},
+		{
+			"state": "South Carolina",
+			"score_peace_index": 3.178
+		},
+		{
+			"state": "Arkansas",
+			"score_peace_index": 3.201
+		},
+		{
+			"state": "Texas",
+			"score_peace_index": 3.202
+		},
+		{
+			"state": "Missouri",
+			"score_peace_index": 3.205
+		},
+		{
+			"state": "Arizona",
+			"score_peace_index": 3.217
+		},
+		{
+			"state": "Florida",
+			"score_peace_index": 3.365
+		},
+		{
+			"state": "Nevada",
+			"score_peace_index": 3.368
+		},
+		{
+			"state": "Tennessee",
+			"score_peace_index": 3.413
+		},
+		{
+			"state": "Louisiana",
+			"score_peace_index": 4.049
+		}
+	]
+}

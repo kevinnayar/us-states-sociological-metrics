@@ -1,0 +1,208 @@
+{
+	"data": [
+		{
+			"state": "Alabama",
+			"percent_religious": 77
+		},
+		{
+			"state": "Mississippi",
+			"percent_religious": 77
+		},
+		{
+			"state": "Tennessee",
+			"percent_religious": 73
+		},
+		{
+			"state": "Louisiana",
+			"percent_religious": 71
+		},
+		{
+			"state": "Arkansas",
+			"percent_religious": 70
+		},
+		{
+			"state": "South Carolina",
+			"percent_religious": 70
+		},
+		{
+			"state": "West Virginia",
+			"percent_religious": 69
+		},
+		{
+			"state": "Oklahoma",
+			"percent_religious": 66
+		},
+		{
+			"state": "Georgia",
+			"percent_religious": 66
+		},
+		{
+			"state": "North Carolina",
+			"percent_religious": 65
+		},
+		{
+			"state": "Texas",
+			"percent_religious": 64
+		},
+		{
+			"state": "Utah",
+			"percent_religious": 64
+		},
+		{
+			"state": "Kentucky",
+			"percent_religious": 63
+		},
+		{
+			"state": "Virginia",
+			"percent_religious": 61
+		},
+		{
+			"state": "Missouri",
+			"percent_religious": 60
+		},
+		{
+			"state": "South Dakota",
+			"percent_religious": 59
+		},
+		{
+			"state": "Ohio",
+			"percent_religious": 58
+		},
+		{
+			"state": "New Mexico",
+			"percent_religious": 57
+		},
+		{
+			"state": "Iowa",
+			"percent_religious": 55
+		},
+		{
+			"state": "Kansas",
+			"percent_religious": 55
+		},
+		{
+			"state": "New Jersey",
+			"percent_religious": 55
+		},
+		{
+			"state": "Indiana",
+			"percent_religious": 54
+		},
+		{
+			"state": "Wyoming",
+			"percent_religious": 54
+		},
+		{
+			"state": "Florida",
+			"percent_religious": 54
+		},
+		{
+			"state": "Maryland",
+			"percent_religious": 54
+		},
+		{
+			"state": "Nebraska",
+			"percent_religious": 54
+		},
+		{
+			"state": "Michigan",
+			"percent_religious": 53
+		},
+		{
+			"state": "Pennsylvania",
+			"percent_religious": 53
+		},
+		{
+			"state": "Arizona",
+			"percent_religious": 53
+		},
+		{
+			"state": "District of Columbia",
+			"percent_religious": 53
+		},
+		{
+			"state": "North Dakota",
+			"percent_religious": 53
+		},
+		{
+			"state": "Delaware",
+			"percent_religious": 52
+		},
+		{
+			"state": "Illinois",
+			"percent_religious": 51
+		},
+		{
+			"state": "Idaho",
+			"percent_religious": 51
+		},
+		{
+			"state": "California",
+			"percent_religious": 49
+		},
+		{
+			"state": "Nevada",
+			"percent_religious": 49
+		},
+		{
+			"state": "Minnesota",
+			"percent_religious": 49
+		},
+		{
+			"state": "Rhode Island",
+			"percent_religious": 49
+		},
+		{
+			"state": "Montana",
+			"percent_religious": 48
+		},
+		{
+			"state": "Oregon",
+			"percent_religious": 48
+		},
+		{
+			"state": "Hawaii",
+			"percent_religious": 47
+		},
+		{
+			"state": "Colorado",
+			"percent_religious": 47
+		},
+		{
+			"state": "New York",
+			"percent_religious": 46
+		},
+		{
+			"state": "Washington",
+			"percent_religious": 45
+		},
+		{
+			"state": "Alaska",
+			"percent_religious": 45
+		},
+		{
+			"state": "Wisconsin",
+			"percent_religious": 45
+		},
+		{
+			"state": "Connecticut",
+			"percent_religious": 43
+		},
+		{
+			"state": "Maine",
+			"percent_religious": 34
+		},
+		{
+			"state": "Vermont",
+			"percent_religious": 34
+		},
+		{
+			"state": "New Hampshire",
+			"percent_religious": 33
+		},
+		{
+			"state": "Massachusetts",
+			"percent_religious": 33
+		}
+	]
+}

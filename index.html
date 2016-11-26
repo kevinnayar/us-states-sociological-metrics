@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>US States Sociological Metrics</title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans|Montserrat" rel="stylesheet" type="text/css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <header id="header">
+      <h1 class="title">US States Sociological Metrics</h1>
+    </header>
+
+    <section id="content">
+      <nav id="chart-type-selector" class="chart-selector">
+        <h2 class="chart-label">View as</h2>
+        <ul>
+          <li>
+            <a data-chart-type="area-spline" href="#">Area Spline</a>
+          </li>
+          <li>
+            <a data-chart-type="spline" href="#">Spline</a>
+          </li>
+          <li>
+            <a data-chart-type="area" href="#">Area</a>
+          </li>
+          <li>
+            <a data-chart-type="line" href="#">Line</a>
+          </li>
+          <li>
+            <a data-chart-type="scatter" href="#">Scatter</a>
+          </li>
+          <li>
+            <a data-chart-type="bar" href="#">Bar</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav id="chart-sort-selector" class="chart-selector">
+        <h2 class="chart-label">Sort by</h2>
+        <ul>
+          <li>
+            <a data-chart-sort="state" href="#">State</a>
+          </li>
+          <li>
+            <a data-chart-sort="percent_educational_attainment" href="#">Educational Attainment</a>
+          </li>
+          <li>
+            <a data-chart-sort="percent_peace_index" href="#">Peace Index</a>
+          </li>
+          <li>
+            <a data-chart-sort="percent_above_poverty_rate" href="#">Above Poverty Rate</a>
+          </li>
+          <li>
+            <a data-chart-sort="percent_non_religious" href="#">Non Religious</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="chart"></div>
+    </section>
+
+    <footer id="footer">
+      <p>Made by <a href="//kevinnayar.github.io" class="outbound-link">Kevin Nayar</a></p>
+    </footer>
+
+    <!-- begin scripts -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="public/js/script.js"></script>
+    <!-- /end scripts -->
+
+  </body>
+
+</html>

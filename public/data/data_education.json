@@ -1,0 +1,204 @@
+{
+	"data": [
+		{
+			"state": "Massachusetts",
+			"percent_educational_attainment": 38.2
+		},
+		{
+			"state": "Maryland",
+			"percent_educational_attainment": 37.3
+		},
+		{
+			"state": "Colorado",
+			"percent_educational_attainment": 35.9
+		},
+		{
+			"state": "Connecticut",
+			"percent_educational_attainment": 35.6
+		},
+		{
+			"state": "New Jersey",
+			"percent_educational_attainment": 34.5
+		},
+		{
+			"state": "Virginia",
+			"percent_educational_attainment": 34.0
+		},
+		{
+			"state": "Vermont",
+			"percent_educational_attainment": 33.1
+		},
+		{
+			"state": "New York",
+			"percent_educational_attainment": 32.4
+		},
+		{
+			"state": "New Hampshire",
+			"percent_educational_attainment": 32.0
+		},
+		{
+			"state": "Minnesota",
+			"percent_educational_attainment": 31.5
+		},
+		{
+			"state": "Washington",
+			"percent_educational_attainment": 31.0
+		},
+		{
+			"state": "Illinois",
+			"percent_educational_attainment": 30.6
+		},
+		{
+			"state": "Rhode Island",
+			"percent_educational_attainment": 30.5
+		},
+		{
+			"state": "California",
+			"percent_educational_attainment": 29.9
+		},
+		{
+			"state": "Hawaii",
+			"percent_educational_attainment": 29.6
+		},
+		{
+			"state": "Kansas",
+			"percent_educational_attainment": 29.5
+		},
+		{
+			"state": "Oregon",
+			"percent_educational_attainment": 29.2
+		},
+		{
+			"state": "Delaware",
+			"percent_educational_attainment": 28.7
+		},
+		{
+			"state": "Utah",
+			"percent_educational_attainment": 28.5
+		},
+		{
+			"state": "Georgia",
+			"percent_educational_attainment": 27.5
+		},
+		{
+			"state": "Montana",
+			"percent_educational_attainment": 27.4
+		},
+		{
+			"state": "Nebraska",
+			"percent_educational_attainment": 27.4
+		},
+		{
+			"state": "Maine",
+			"percent_educational_attainment": 26.9
+		},
+		{
+			"state": "Alaska",
+			"percent_educational_attainment": 26.6
+		},
+		{
+			"state": "North Carolina",
+			"percent_educational_attainment": 26.5
+		},
+		{
+			"state": "Pennsylvania",
+			"percent_educational_attainment": 26.4
+		},
+		{
+			"state": "North Dakota",
+			"percent_educational_attainment": 25.8
+		},
+		{
+			"state": "Wisconsin",
+			"percent_educational_attainment": 25.7
+		},
+		{
+			"state": "Arizona",
+			"percent_educational_attainment": 25.6
+		},
+		{
+			"state": "Texas",
+			"percent_educational_attainment": 25.5
+		},
+		{
+			"state": "Florida",
+			"percent_educational_attainment": 25.3
+		},
+		{
+			"state": "New Mexico",
+			"percent_educational_attainment": 25.3
+		},
+		{
+			"state": "Missouri",
+			"percent_educational_attainment": 25.2
+		},
+		{
+			"state": "Iowa",
+			"percent_educational_attainment": 25.1
+		},
+		{
+			"state": "South Dakota",
+			"percent_educational_attainment": 25.1
+		},
+		{
+			"state": "Michigan",
+			"percent_educational_attainment": 24.6
+		},
+		{
+			"state": "South Carolina",
+			"percent_educational_attainment": 24.3
+		},
+		{
+			"state": "Ohio",
+			"percent_educational_attainment": 24.1
+		},
+		{
+			"state": "Idaho",
+			"percent_educational_attainment": 23.9
+		},
+		{
+			"state": "Wyoming",
+			"percent_educational_attainment": 23.8
+		},
+		{
+			"state": "Tennessee",
+			"percent_educational_attainment": 23.0
+		},
+		{
+			"state": "Oklahoma",
+			"percent_educational_attainment": 22.7
+		},
+		{
+			"state": "Indiana",
+			"percent_educational_attainment": 22.5
+		},
+		{
+			"state": "Alabama",
+			"percent_educational_attainment": 22.0
+		},
+		{
+			"state": "Nevada",
+			"percent_educational_attainment": 21.8
+		},
+		{
+			"state": "Louisiana",
+			"percent_educational_attainment": 21.4
+		},
+		{
+			"state": "Kentucky",
+			"percent_educational_attainment": 21.0
+		},
+		{
+			"state": "Mississippi",
+			"percent_educational_attainment": 19.6
+		},
+		{
+			"state": "Arkansas",
+			"percent_educational_attainment": 18.9
+		},
+		{
+			"state": "West Virginia",
+			"percent_educational_attainment": 17.3
+		}
+	]
+}

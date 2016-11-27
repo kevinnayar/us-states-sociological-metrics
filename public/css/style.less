@@ -213,19 +213,58 @@
   #footer {
     position: fixed;
     z-index: 1000;
-    text-align: center;
     bottom: 0;
     background-color: @colorDarkBlue;
     color: @textColorLightBlue;
-    width: 100%;
+    width: 94%;
+    padding: 0 3%;
     height: 50px;
 
     p {
       line-height: 50px;
+    }
+
+    a {
+      font-size: 1.3em;
+      line-height: 50px;
+      color: @textColorGrey;
+      -ms-transition: opacity .5s linear;
+      -webkit-transition: opacity .5s linear;
+      -moz-transition: opacity .5s linear;
+      transition: opacity .5s linear;
+
+      &:hover {
+        opacity: .67;
+      }
+    }
+
+    #footer-navigation {
+      float: left;
+
+      p {
+        float: left;
+      }
+
+      ul {
+        float: left;
+
+        li {
+          display: inline;
+          float: left;
+
+          a {
+            margin: 0 0 0 1em;
+
+          }
+        }
+      }
+    }
+
+    p.copyright {
+      float: right;
 
       a {
         font-size: 1em;
-        color: @textColorGrey;
       }
     }
   }
